@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    font-weight: bold;
+    
+}
+
+.accordion{
+    outline: none;
+    border: none;
+    transition: .2s ease;
+    width: 100%;
+    text-align: left;
+    padding: 18px 10px;
+    cursor: pointer;
+}
+
+.show , .accordion:hover{
+    background-color: #ccc;
+}
+.panel{
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+    display: none;
+    overflow: hidden;
+    line-height: 1.8rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.links .div{
+    border-radius: 4px;
+    padding: 2px 18px;
+    background-color: lightgray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.links .div:hover{
+    color: blue;
+    background-color: #ccc;
+    text-decoration: underline;
+}
+.top10{
+    display: flex;
+    justify-content: center;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: normal;
+  }
+  #customers th{
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:gray;
+    color: black;
+  }
